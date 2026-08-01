@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on seneca.systems
+host: https://seneca.systems
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No machine-readable discovery documents are published at seneca.systems. The
+  Romulus product domain (romuluscrm.com) was unreachable over TLS at probe time
+  and could not be checked. Empty result is expected for a govtech SaaS with no
+  public API surface.
